@@ -37,23 +37,6 @@ To add a new Python tool to the live site, I follow these steps:
 
 3. Commit and push to GitHub: git commit -am "Added new tool" && git push
 4. GitHub Pages automatically rebuilds the site with the new project.
-   
-🎨 Customizing the Look
-The entire theme is controlled via CSS Variables. To change the colors (e.g., switching from Blue to Python Yellow):
 
-Go to assets/css/style.css.
-Locate the :root block.
-Update the --accent variable:
-CSS
-
---accent: #ffd43b; /* Python Yellow */
-⚙️ Deployment to GitHub Pages
-Go to your repository Settings tab.
-Click Pages on the left sidebar.
-Under Build and deployment, ensure:
-Source: Deploy from a branch
-Branch: main (or master)
-Folder: /(root)
-Click Save. Your site will be live at yourusername.github.io.
 🤝 Contributing
 If you find a bug in one of my tools or want to suggest a feature, feel free to open an issue in the specific tool's repository or contact me via the site!
