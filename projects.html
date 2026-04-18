@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Python Dev</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">python_dev.py</div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+        <section style="padding: 40px 0;">
+            <h2>Project Gallery</h2>
+            <div class="filter-container" style="margin-top: 1rem;">
+                <button class="filter-btn active" onclick="renderProjects('all')">All</button>
+                <button class="filter-btn" onclick="renderProjects('automation')">Automation</button>
+                <button class="filter-btn" onclick="renderProjects('game')">Game</button>
+            </div>
+            <div id="project-grid" class="project-grid"></div>
+        </section>
+    </div>
+    <script src="assets/js/projects.js"></script>
+</body>
+</html>
